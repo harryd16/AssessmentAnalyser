@@ -5,7 +5,7 @@ Spin your boring marking results into a spectacularly ordered graph.
 ## Getting Started
 **Truth** - run the installer on windows and everything _will_ be fine.  
 Half the stuff below I don't even know what I'm talking about.  
-And most likely you willa NOT need the prerequisites.
+And most likely you will NOT need the prerequisites.
 
 These instruction will help you install the software and teach you the simple actions of operating it.
 

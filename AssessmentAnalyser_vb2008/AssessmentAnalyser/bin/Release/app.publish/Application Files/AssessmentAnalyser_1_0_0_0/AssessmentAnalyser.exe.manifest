@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="AssessmentAnalyser.exe" version="1.0.0.0" publicKeyToken="a6ebede3d4f79374" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\Mattahan-Buuf-Magnifying-Glass.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AssessmentAnalyser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AssessmentAnalyser.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Windows.Forms.DataVisualization" version="3.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AssessmentAnalyser.exe" size="1291264">
+      <assemblyIdentity name="AssessmentAnalyser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nHNRG/x8DVTYVIlkaOzINfylfFs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\Mattahan-Buuf-Magnifying-Glass.ico" size="106838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ao2sGw0emw+Xh53GjUxK8q/oti8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HARRY-PC\Harry-PC" issuerKeyHash="ca2d641a58708864d17099e4dd2ae58a10784564" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zqZ/2qgJbVcC0ae+aL0uk66ilRE=</DigestValue></Reference></SignedInfo><SignatureValue>CvRw0TVL7lgqIWPJ9nqpeuAX3VUIt4PJ9N1t5EuvQXvZbvudLd0ItuAhM9AmXcXbkHp2cloKWg4rd60iOu33WgZL/6S4DpIenIDF12BpAzmmgseKapLufSrq/XtRenSdfGf2Ncn9Pc0mTpNh2ccfiWPVDi4tLtmy2fSgaF8I/l8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pZYKIYCfAReYwK5WOxo21JQFv4BpW7CHMUGwV8tbUJ9k7ziB5X6U89VZucaqFTXmjZBpoqJxEPeZtog5iRvNYOTm4kXzAYivjvrT4+4Qx8FLdQOSRbph3X8tqKC/jINdKSquJiFksMoHXu3zVM9wsDE7Lp4lCJHDk3XsaejsTZM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1195a2ae932ebd68bea7d102576d09a8da7fa6ce" Description="" Url=""><as:assemblyIdentity name="AssessmentAnalyser.exe" version="1.0.0.0" publicKeyToken="a6ebede3d4f79374" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HARRY-PC\Harry-PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HGyoWrvkZWBgNjt2cCrfObq8irY=</DigestValue></Reference></SignedInfo><SignatureValue>Q2ANNYVsPYk21jcgzXt3ki6QElx8bq15RCvqLzrhAttkcT3QHDMETm7oaE24JC/AhmXozZPMzX27xg9mOicaPhMrTKu2fl3BurKs3nWZI8+63IYn2JdBw7P8gaMBBqq03hmaUSsOuVabWggtBV410lKV2qZgCmYLx8wjZxCSpIY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pZYKIYCfAReYwK5WOxo21JQFv4BpW7CHMUGwV8tbUJ9k7ziB5X6U89VZucaqFTXmjZBpoqJxEPeZtog5iRvNYOTm4kXzAYivjvrT4+4Qx8FLdQOSRbph3X8tqKC/jINdKSquJiFksMoHXu3zVM9wsDE7Lp4lCJHDk3XsaejsTZM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQOS52ZcOd4pNK6l6sveqqqjANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIASABBAFIAUgBZAC0AUABDAFwASABhAHIAcgB5AC0AUABDMB4XDTE2MTIwMTEzMTkwMloXDTE3MTIwMTE5MTkwMlowLTErMCkGA1UEAx4iAEgAQQBSAFIAWQAtAFAAQwBcAEgAYQByAHIAeQAtAFAAQzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApZYKIYCfAReYwK5WOxo21JQFv4BpW7CHMUGwV8tbUJ9k7ziB5X6U89VZucaqFTXmjZBpoqJxEPeZtog5iRvNYOTm4kXzAYivjvrT4+4Qx8FLdQOSRbph3X8tqKC/jINdKSquJiFksMoHXu3zVM9wsDE7Lp4lCJHDk3XsaejsTZMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBXooHCDHUj0D/TgOH+sNGSU+q03kbFLcyS3ebIHMSodsEnTyAuwzM05+yyR4OreRV3mUcqBOT7WJovrHszZo5bJ3vEOArAfotvNBIWyX0d2BI5MmwSPdBHjK5NDVvtCi4U/wvspa4RuXCB8eik21gRaN5u/z8WzAOYpAwt5O19yA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

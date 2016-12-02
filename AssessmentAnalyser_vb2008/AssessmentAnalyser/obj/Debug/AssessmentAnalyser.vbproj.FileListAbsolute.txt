@@ -1,0 +1,12 @@
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\bin\Debug\AssessmentAnalyser.exe
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\bin\Debug\AssessmentAnalyser.pdb
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\bin\Debug\AssessmentAnalyser.xml
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\ResolveAssemblyReference.cache
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.winLand.resources
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.Resources.resources
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.vbproj.GenerateResource.Cache
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.exe
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.xml
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.pdb
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.winMarkEntry.resources
+F:\GitHub\sdd\HSC\AT1\AssessmentAnalyser\AssessmentAnalyser\obj\Debug\AssessmentAnalyser.main.resources
